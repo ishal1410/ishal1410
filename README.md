@@ -2,7 +2,7 @@
 
 **Backend Engineer - Python · FastAPI · Node.js · AWS · Kubernetes**
 
-MS Computer Science @ LIU Brooklyn (GPA 3.85, May 2026) - actively looking for full-time SWE / Backend / ML Engineering roles.
+MS Computer Science @ LIU Brooklyn (GPA 3.9, May 2026) - actively looking for full-time SWE / Backend / ML Engineering roles.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal1410)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vp1412003@gmail.com)

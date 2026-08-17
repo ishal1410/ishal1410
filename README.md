@@ -17,7 +17,7 @@ Selfie in, scores across 11 skin concerns and a matched AM/PM routine out. The p
 ### [jdecode](https://github.com/ishal1410/jdecode) · [jdecode.vercel.app](https://jdecode.vercel.app)
 `Next.js 16` `FastAPI` `Python` `PyMuPDF`
 
-Paste a job posting, get the keywords your resume is missing ranked from critical down to nice to have. It runs on your own key across six providers, four of them free, and keeps that key on the client, so hosting it costs nothing.
+Paste a job posting, get the keywords your resume is missing ranked from critical down to nice to have. It runs on your own key across six providers, four of them free, and the key is passed per request and never stored, so hosting it costs nothing.
 
 ## Backend and infrastructure
 
@@ -29,7 +29,7 @@ EfficientNet-B0 served behind FastAPI, with model weights pulled from S3 at runt
 ### [realtime-chat-app](https://github.com/ishal1410/realtime-chat-app)
 `Node.js` `TypeScript` `Apollo Server v5` `GraphQL` `Redis` `Kafka` `PostgreSQL` `Kubernetes` `CI`
 
-WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across instances so any server can reach a client connected to any other, and Kafka carries async events to decoupled consumers. Auth is JWT with bcrypt, and the repo ships GitHub Actions CI alongside Kubernetes manifests for the app, Postgres, and Redis.
+WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across instances so any server can reach a client connected to any other, and Kafka carries async events to decoupled consumers. Auth is JWT with bcryptjs, DataLoader batches the resolvers, and the repo ships GitHub Actions CI alongside Kubernetes manifests for the app, Postgres, and Redis.
 
 ## Machine learning and research
 

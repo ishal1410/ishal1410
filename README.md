@@ -1,6 +1,6 @@
 # Vishal Patel
 
-Backend and machine learning engineer based in Brooklyn, NY. MS Computer Science, Long Island University, 2026, GPA 3.9.
+Backend and machine learning engineer. Brooklyn, NY.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal1410)
 [![Email](https://img.shields.io/badge/vp1412003@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vp1412003@gmail.com)

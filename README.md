@@ -1,6 +1,6 @@
 # Vishal Patel
 
-Backend and machine learning engineer. Brooklyn, NY.
+Backend and machine learning engineer. 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal1410)
 [![Email](https://img.shields.io/badge/vp1412003@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vp1412003@gmail.com)

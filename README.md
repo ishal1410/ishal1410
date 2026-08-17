@@ -5,8 +5,6 @@ Backend and machine learning engineer. Brooklyn, NY.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal1410)
 [![Email](https://img.shields.io/badge/vp1412003@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vp1412003@gmail.com)
 
-> Open to full-time backend and machine learning engineering roles. On F1 OPT and authorized to work in the US now.
-
 I build backend services and the machine learning systems behind them, from the API layer down to the infrastructure they run on.
 
 ## Live
@@ -38,12 +36,12 @@ WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across
 ### [deepfake-detection-faceforensics](https://github.com/ishal1410/deepfake-detection-faceforensics)
 `TensorFlow` `EfficientNet-B0` `MTCNN` `dlib` `Grad-CAM`
 
-EfficientNet-B0 with spatial attention reached 89.33% at 0.9611 AUC on FaceForensics++, and the best ensemble reached 95.33%. Tested cross-dataset on Celeb-DF v2 it falls to 75.00%, which says more about how well it generalizes than the headline figure does. Group project for AI 688 with Saunil Patel.
+EfficientNet-B0 with spatial attention reached 89.33% at 0.9611 AUC on FaceForensics++, and the best ensemble reached 95.33%. Tested cross-dataset on Celeb-DF v2 it falls to 75.00%, which says more about how well it generalizes than the headline figure does.
 
 ### [neural-decoding-bci](https://github.com/ishal1410/neural-decoding-bci)
 `Python` `Ridge Regression` `scikit-learn`
 
-Which failure mode actually breaks a brain-computer interface: electrodes dying, or the neural signal drifting over months? On 256-electrode intracortical recordings from an ALS patient (Card et al., NEJM 2024), drift is by far the more damaging of the two. Graduate coursework for AI 689.
+Which failure mode actually breaks a brain-computer interface: electrodes dying, or the neural signal drifting over months? On 256-electrode intracortical recordings from an ALS patient (Card et al., NEJM 2024), drift is by far the more damaging of the two.
 
 ## Tools
 

@@ -1,25 +1,25 @@
 # Vishal Patel
 
-Backend and machine learning engineer. MS Computer Science, LIU Brooklyn, 2026. GPA 3.9. Brooklyn, NY.
+Backend and machine learning engineer based in Brooklyn, NY. MS Computer Science, Long Island University, 2026, GPA 3.9.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal1410)
 [![Email](https://img.shields.io/badge/vp1412003@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vp1412003@gmail.com)
 
 > Open to full-time backend and machine learning engineering roles. On F1 OPT and authorized to work in the US now.
 
-I build backend services and the machine learning systems behind them, from the API layer down to the Terraform that provisions it.
+I build backend services and the machine learning systems behind them, from the API layer down to the infrastructure they run on.
 
 ## Live
 
 ### [glowread](https://github.com/ishal1410/glowread) · [glowread.vercel.app](https://glowread.vercel.app)
 `Next.js 16` `React 19` `TypeScript` `Perfect Corp API` `Vitest`
 
-Selfie in, scores across 11 skin concerns and a matched AM/PM routine out. The planner is deterministic code and the LLM only rewrites wording, so the output schema cannot break and 120 Vitest tests can cover the logic that matters.
+Selfie in, scores across 11 skin concerns and a matched AM/PM routine out. The planner is deterministic code and the LLM only rewrites wording, so the output schema cannot break and 120 Vitest tests cover the planning logic directly.
 
 ### [jdecode](https://github.com/ishal1410/jdecode) · [jdecode.vercel.app](https://jdecode.vercel.app)
 `Next.js 16` `FastAPI` `Python` `PyMuPDF`
 
-Paste a job posting, get the keywords your resume is missing ranked from critical down to nice to have. Runs on your own key across six providers, four of them free, so it costs nothing to host and stores no keys server side.
+Paste a job posting, get the keywords your resume is missing ranked from critical down to nice to have. It runs on your own key across six providers, four of them free, and keeps that key on the client, so hosting it costs nothing.
 
 ## Backend and infrastructure
 
@@ -31,19 +31,19 @@ EfficientNet-B0 served behind FastAPI, with model weights pulled from S3 at runt
 ### [realtime-chat-app](https://github.com/ishal1410/realtime-chat-app)
 `Node.js` `TypeScript` `Apollo Server v5` `GraphQL` `Redis` `Kafka` `PostgreSQL` `Kubernetes` `CI`
 
-WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across instances so any server can reach a client connected to any other, Kafka carries async events to decoupled consumers, auth is JWT with bcrypt, and the repo ships GitHub Actions CI with Kubernetes manifests for the app, Postgres, and Redis.
+WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across instances so any server can reach a client connected to any other, and Kafka carries async events to decoupled consumers. Auth is JWT with bcrypt, and the repo ships GitHub Actions CI alongside Kubernetes manifests for the app, Postgres, and Redis.
 
 ## Machine learning and research
 
 ### [deepfake-detection-faceforensics](https://github.com/ishal1410/deepfake-detection-faceforensics)
 `TensorFlow` `EfficientNet-B0` `MTCNN` `dlib` `Grad-CAM`
 
-EfficientNet-B0 with spatial attention reached 89.33% at 0.9611 AUC on FaceForensics++, and the best ensemble reached 95.33%. Tested cross-dataset on Celeb-DF v2 it falls to 75.00%, which is the more useful number to report. Group project for AI 688 with Saunil Patel.
+EfficientNet-B0 with spatial attention reached 89.33% at 0.9611 AUC on FaceForensics++, and the best ensemble reached 95.33%. Tested cross-dataset on Celeb-DF v2 it falls to 75.00%, which says more about how well it generalizes than the headline figure does. Group project for AI 688 with Saunil Patel.
 
 ### [neural-decoding-bci](https://github.com/ishal1410/neural-decoding-bci)
 `Python` `Ridge Regression` `scikit-learn`
 
-Which failure mode actually breaks a brain-computer interface: electrodes dying, or the neural signal drifting over months? On 256-electrode intracortical recordings from an ALS patient (Card et al., NEJM 2024), drift wins by a wide margin. Graduate coursework for AI 689.
+Which failure mode actually breaks a brain-computer interface: electrodes dying, or the neural signal drifting over months? On 256-electrode intracortical recordings from an ALS patient (Card et al., NEJM 2024), drift is by far the more damaging of the two. Graduate coursework for AI 689.
 
 ## Tools
 

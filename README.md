@@ -26,12 +26,12 @@ Paste a job posting, get the keywords your resume is missing ranked from critica
 ### [ml-serving-platform](https://github.com/ishal1410/ml-serving-platform)
 `FastAPI` `PyTorch` `AWS S3` `Docker` `Terraform` `Prometheus` `Grafana`
 
-EfficientNet-B0 served behind FastAPI, with model weights pulled from S3 at runtime instead of baked into the image. Prometheus feeds a Grafana dashboard, Terraform provisions the AWS side, and GitHub Actions runs pytest on every push.
+EfficientNet-B0 served behind FastAPI, with model weights pulled from S3 at runtime rather than baked into the image, so the container stays small and the model can be swapped without a rebuild. Terraform provisions the AWS side and the compose stack brings up Prometheus and Grafana alongside the API.
 
 ### [realtime-chat-app](https://github.com/ishal1410/realtime-chat-app)
-`Node.js` `TypeScript` `Apollo Server v5` `GraphQL` `Redis` `Kafka` `PostgreSQL` `Kubernetes`
+`Node.js` `TypeScript` `Apollo Server v5` `GraphQL` `Redis` `Kafka` `PostgreSQL` `Kubernetes` `CI`
 
-WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across instances so any server can reach a client connected to any other, Kafka carries async events to decoupled consumers, and auth is JWT with bcrypt.
+WebSockets for delivery, GraphQL for history. Redis Pub/Sub fans messages across instances so any server can reach a client connected to any other, Kafka carries async events to decoupled consumers, auth is JWT with bcrypt, and the repo ships GitHub Actions CI with Kubernetes manifests for the app, Postgres, and Redis.
 
 ## Machine learning and research
 
@@ -53,7 +53,7 @@ Which failure mode actually breaks a brain-computer interface: electrodes dying,
 Ask a data catalog a question in plain English, get an answer traced through real lineage and ownership with every asset named by its URN. The agent holds one write tool out of the twelve DataHub exposes, because catalog text is untrusted input reaching a model that has write access.
 
 ### [linkedin-job-scanner](https://github.com/ishal1410/linkedin-job-scanner)
-`JavaScript` `Node.js` · 8 stars · zero dependencies
+`JavaScript` `Node.js` `CI` · 8 stars · zero dependencies
 
 Pulls fresh job postings into a spreadsheet from the same public listings a logged-out visitor sees. Most tools in this space want your session cookie, which is exactly the automation LinkedIn restricts accounts for.
 

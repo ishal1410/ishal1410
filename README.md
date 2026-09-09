@@ -1,4 +1,4 @@
-<img src="./assets/hero.svg" width="100%" alt="Vishal Patel, backend and machine learning engineer. Beside the name, three measured results: 3,632 of 3,632 IRS returns reconciled in ninetyninety, 177 tests spending no API call in depositcheck, and 95.33 percent in-set against 75.00 percent cross-dataset accuracy in the deepfake detection project.">
+<img src="./assets/hero.svg" width="100%" alt="Vishal Patel, backend and machine learning engineer, beside three measured results drawn from the projects below: IRS returns whose total revenue was rebuilt in ninetyninety, offline tests in depositcheck, and in-set against cross-dataset accuracy in the deepfake detection project.">
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vishal1410"><img src="https://img.shields.io/badge/LinkedIn-vishal1410-F4F2EE?style=flat-square&labelColor=141417" alt="LinkedIn"></a>
@@ -22,6 +22,7 @@ I build backend services and the machine learning systems behind them, from the 
 ### [depositcheck](https://github.com/ishal1410/depositcheck) · [live](https://depositcheck-liart.vercel.app)
 
 **Winner, SerpApi "Best AI Use Case" — DevNetwork API+Cloud+AI Hackathon 2026**
+
 `Next.js` `TypeScript` `SerpApi google_lens` `177 tests`
 
 Upload one photo from a rental listing, type the address you were given, and find out whether those photos already belong to a different property. Rental scams work by theft rather than invention, and the photos are the part the scammer cannot change.
@@ -127,7 +128,7 @@ Pulls fresh job postings into a spreadsheet from the same public listings a logg
 ![OpenCV](https://img.shields.io/badge/OpenCV-141417?style=flat-square&logo=opencv&logoColor=E0B252)
 ![Streamlit](https://img.shields.io/badge/Streamlit-141417?style=flat-square&logo=streamlit&logoColor=E0B252)
 
-![AWS](https://img.shields.io/badge/AWS-141417?style=flat-square&logoColor=E0B252)
+![AWS](https://img.shields.io/badge/AWS-141417?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-141417?style=flat-square&logo=docker&logoColor=E0B252)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-141417?style=flat-square&logo=kubernetes&logoColor=E0B252)
 ![Terraform](https://img.shields.io/badge/Terraform-141417?style=flat-square&logo=terraform&logoColor=E0B252)
@@ -137,7 +138,7 @@ Pulls fresh job postings into a spreadsheet from the same public listings a logg
 ![Grafana](https://img.shields.io/badge/Grafana-141417?style=flat-square&logo=grafana&logoColor=E0B252)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-141417?style=flat-square&logo=githubactions&logoColor=E0B252)
 
-<img src="./assets/stats.svg" width="100%" alt="Public code on this account: 14 repositories, 9 stars, and the share of each language across them, notebook bytes excluded.">
+<img src="./assets/stats.svg" width="100%" alt="Public code on this account: repository and star counts, and the share of each language across them, notebook bytes excluded.">
 
 <p align="center">
   <a href="mailto:vp1412003@gmail.com">vp1412003@gmail.com</a> · <a href="https://www.linkedin.com/in/vishal1410">linkedin.com/in/vishal1410</a>

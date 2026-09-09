@@ -30,7 +30,7 @@ PANEL = "#141417"
 RULE = "#26262C"
 PAPER = "#F4F2EE"
 GRAY = "#9B9BA4"
-DIM = "#5E5F68"
+DIM = "#83848E"  # 4.95:1 on PANEL, 5.33:1 on INK; #5E5F68 was 2.90:1
 GOLD = "#E0B252"
 
 SERIF = "Georgia,'Times New Roman',serif"
@@ -50,7 +50,7 @@ RAMP = ["#E0B252", "#C9A268", "#A99175", "#87807A", "#6A6873", "#514F58", "#3A39
 # Three measured facts, each from a repository on this account. They are what
 # makes this hero unusable on anyone elses profile.
 EVIDENCE = [
-    ("3,632 / 3,632", "IRS returns reconciled", "ninetyninety"),
+    ("3,632 / 3,632", "IRS returns, total revenue rebuilt", "ninetyninety"),
     ("177", "tests, none spending an API call", "depositcheck"),
     ("95.33% / 75.00%", "in-set and cross-dataset", "deepfake-detection"),
 ]
@@ -81,7 +81,7 @@ def tick(x, y, w=54, color=GOLD):
 
 
 def hero_svg():
-    w, h = 1200, 420
+    w, h = 1200, 440
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
         f'viewBox="0 0 {w} {h}" role="img" aria-labelledby="ht hd">',
@@ -95,7 +95,7 @@ def hero_svg():
         f'<line x1="672" y1="70" x2="672" y2="{h - 34}" stroke="{RULE}" '
         'stroke-width="2"/>',
         tick(56, 92),
-        f'<text x="130" y="98" font-family="{MONO}" font-size="16" fill="{GRAY}" '
+        f'<text x="130" y="98" font-family="{MONO}" font-size="18" fill="{GRAY}" '
         'letter-spacing="4">BACKEND AND MACHINE LEARNING</text>',
         f'<text x="56" y="196" font-family="{SERIF}" font-size="76" fill="{PAPER}">'
         "Vishal Patel</text>",
@@ -103,22 +103,22 @@ def hero_svg():
         "I build production services and the models</text>",
         f'<text x="56" y="286" font-family="{SANS}" font-size="23" fill="{GRAY}">'
         "behind them, then measure whether they hold.</text>",
-        f'<text x="56" y="352" font-family="{MONO}" font-size="16" fill="{DIM}">'
+        f'<text x="56" y="352" font-family="{MONO}" font-size="18" fill="{DIM}">'
         "github.com/ishal1410</text>",
-        f'<text x="736" y="98" font-family="{MONO}" font-size="16" fill="{GRAY}" '
+        f'<text x="736" y="98" font-family="{MONO}" font-size="18" fill="{GRAY}" '
         'letter-spacing="4">MEASURED, NOT CLAIMED</text>',
     ]
-    y = 168
+    y = 160
     for value, label, source in EVIDENCE:
         out += [
             f'<text x="736" y="{y}" font-family="{SERIF}" font-size="36" '
             f'fill="{PAPER}">{esc(value)}</text>',
-            f'<text x="736" y="{y + 28}" font-family="{SANS}" font-size="17" '
+            f'<text x="736" y="{y + 30}" font-family="{SANS}" font-size="20" '
             f'fill="{GRAY}">{esc(label)}</text>',
-            f'<text x="736" y="{y + 52}" font-family="{MONO}" font-size="14" '
+            f'<text x="736" y="{y + 58}" font-family="{MONO}" font-size="18" '
             f'fill="{GOLD}">{esc(source)}</text>',
         ]
-        y += 92
+        y += 96
     out.append("</svg>")
     return "\n".join(out)
 
@@ -142,7 +142,7 @@ def section_svg(number, title):
         f'<desc id="d">Section heading: {esc(title)}.</desc>'
         f'<rect width="{w}" height="{h}" rx="14" fill="{PANEL}"/>'
         f"{tick(48, 46)}"
-        f'<text x="130" y="40" font-family="{MONO}" font-size="15" fill="{GOLD}">'
+        f'<text x="130" y="40" font-family="{MONO}" font-size="18" fill="{GOLD}">'
         f"{number}</text>"
         f'<text x="130" y="72" font-family="{SERIF}" font-size="34" fill="{PAPER}">'
         f"{esc(title)}</text>"
@@ -180,7 +180,7 @@ def stats_svg(repo_count, stars, ranked):
         "share of each language across them, notebook bytes excluded.</desc>",
         f'<rect width="{w}" height="{h}" rx="20" fill="{PANEL}"/>',
         tick(56, 62),
-        f'<text x="130" y="68" font-family="{MONO}" font-size="15" fill="{GRAY}" '
+        f'<text x="130" y="68" font-family="{MONO}" font-size="18" fill="{GRAY}" '
         'letter-spacing="4">PUBLIC CODE ON THIS ACCOUNT</text>',
     ]
     for i, (value, label) in enumerate(
@@ -192,7 +192,7 @@ def stats_svg(repo_count, stars, ranked):
             f'<text x="{x}" y="124" font-family="{SERIF}" font-size="40" '
             f'fill="{PAPER}">{esc(value)}</text>',
             f'<text x="{x}" y="124" dx="{14 + 22 * len(value)}" '
-            f'font-family="{SANS}" font-size="17" fill="{DIM}">'
+            f'font-family="{SANS}" font-size="19" fill="{DIM}">'
             f"{esc(label)}</text>",
         ]
 
@@ -215,12 +215,12 @@ def stats_svg(repo_count, stars, ranked):
         out += [
             f'<rect x="{cx}" y="{by + 42}" width="18" height="4" rx="2" '
             f'fill="{RAMP[i % len(RAMP)]}"/>',
-            f'<text x="{cx}" y="{by + 78}" font-family="{SANS}" font-size="18" '
+            f'<text x="{cx}" y="{by + 78}" font-family="{SANS}" font-size="20" '
             f'fill="{PAPER}">{esc(lang)}</text>',
-            f'<text x="{cx}" y="{by + 102}" font-family="{MONO}" font-size="16" '
+            f'<text x="{cx}" y="{by + 104}" font-family="{MONO}" font-size="20" '
             f'fill="{DIM}">{100 * size / total:.1f}%</text>',
         ]
-    out.append(f'<text x="56" y="{h - 20}" font-family="{MONO}" font-size="14" '
+    out.append(f'<text x="56" y="{h - 22}" font-family="{MONO}" font-size="18" '
                f'fill="{DIM}">Notebook bytes excluded; Jupyter counts embedded '
                "plot images as source.</text>")
     out.append("</svg>")

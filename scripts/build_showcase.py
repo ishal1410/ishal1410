@@ -10,17 +10,28 @@ should be captured on purpose, not silently replaced by a cron job.
 
 Output is PNG rather than SVG because the board is four raster screenshots;
 an SVG would only wrap them in base64 and grow.
+
+The board is the heaviest thing on the profile and every visitor loads it, so
+it is written down to BOARD_WIDTH and quantised. Straight from the renderer it
+was 1.4 MB; this is roughly a third of that with no visible loss at the width
+GitHub actually displays.
 """
 
 import base64
+import io
 import pathlib
 import sys
+
+from PIL import Image
 
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHOTS = ROOT / "assets" / "shots"
 OUT = ROOT / "assets" / "showcase.png"
+
+# The README column renders this near 900 px, so 2000 is already generous.
+BOARD_WIDTH = 2000
 
 # Same palette as build_assets.py. Repeated rather than shared because the
 # board is composed in HTML instead of drawn as SVG, and two short constant
@@ -118,8 +129,7 @@ def main():
         b = p.chromium.launch()
         if recapture:
             print("capturing live apps")
-            capture(lambda: b.new_page(viewport={"width": 1440, "height": 900},
-                                       device_scale_factor=2))
+            capture(lambda: b.new_page(viewport={"width": 1600, "height": 1000}))
         missing = [s for s, *_ in APPS if not (SHOTS / f"{s}.png").exists()]
         if missing:
             raise SystemExit(f"no screenshot for: {', '.join(missing)}")
@@ -132,8 +142,14 @@ def main():
             "Array.from(document.images).filter(i => !i.naturalWidth).length")
         if broken:
             raise SystemExit(f"{broken} screenshot(s) failed to load into the board")
-        pg.locator("body").screenshot(path=str(OUT))
+        raw = pg.locator("body").screenshot()
         b.close()
+    board = Image.open(io.BytesIO(raw)).convert("RGB")
+    board = board.resize(
+        (BOARD_WIDTH, round(board.height * BOARD_WIDTH / board.width)),
+        Image.LANCZOS)
+    board.quantize(colors=256, method=Image.MEDIANCUT).save(
+        OUT, "PNG", optimize=True)
     print(f"wrote {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)")
 
 

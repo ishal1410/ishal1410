@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Vishal Patel, backend and ML engineer</title>
+  <desc id="d">Name and role on the left; on the right, the three layers the work spans: API, models and agents, infrastructure.</desc>
+  <rect width="1200" height="320" rx="24" fill="#0B0F14"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <g transform="translate(64 76)">
+      <text font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" fill="#58A6FF" letter-spacing="3">BACKEND &amp; ML ENGINEER</text>
+      <text y="72" font-size="66" font-weight="700" fill="#E6EDF3" letter-spacing="-1.5">Vishal Patel</text>
+      <text y="118" font-size="24" fill="#B8C2CC">Production services and the ML systems behind them,</text>
+      <text y="150" font-size="24" fill="#B8C2CC">from the API layer down to the infrastructure they run on.</text>
+      <text y="200" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" fill="#6E7B8A">github.com/ishal1410  ·  Python  ·  TypeScript  ·  AWS</text>
+    </g>
+    <g transform="translate(776 54)">
+      <line x1="30" y1="0" x2="30" y2="212" stroke="#243040" stroke-width="2"/>
+      <g transform="translate(0 0)">
+        <circle cx="30" cy="30" r="9" fill="#0B0F14" stroke="#58A6FF" stroke-width="3"/>
+        <rect x="58" y="4" width="302" height="52" rx="10" fill="#111823" stroke="#243040"/>
+        <text x="76" y="26" font-size="19" font-weight="600" fill="#E6EDF3">API layer</text>
+        <text x="76" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8B949E">FastAPI · Next.js · GraphQL</text>
+      </g>
+      <g transform="translate(0 76)">
+        <circle cx="30" cy="30" r="9" fill="#0B0F14" stroke="#3FB950" stroke-width="3"/>
+        <rect x="58" y="4" width="302" height="52" rx="10" fill="#111823" stroke="#243040"/>
+        <text x="76" y="26" font-size="19" font-weight="600" fill="#E6EDF3">Models and agents</text>
+        <text x="76" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8B949E">PyTorch · TensorFlow · Strands</text>
+      </g>
+      <g transform="translate(0 152)">
+        <circle cx="30" cy="30" r="9" fill="#0B0F14" stroke="#D29922" stroke-width="3"/>
+        <rect x="58" y="4" width="302" height="52" rx="10" fill="#111823" stroke="#243040"/>
+        <text x="76" y="26" font-size="19" font-weight="600" fill="#E6EDF3">Infrastructure</text>
+        <text x="76" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8B949E">Docker · Kubernetes · Terraform</text>
+      </g>
+    </g>
+  </g>
+</svg>

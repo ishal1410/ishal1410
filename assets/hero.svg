@@ -1,35 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
-  <title id="t">Vishal Patel, backend and ML engineer</title>
-  <desc id="d">Name and role on the left; on the right, the three layers the work spans: API, models and agents, infrastructure.</desc>
-  <rect width="1200" height="320" rx="24" fill="#0B0F14"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <g transform="translate(64 76)">
-      <text font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" fill="#58A6FF" letter-spacing="3">BACKEND &amp; ML ENGINEER</text>
-      <text y="72" font-size="66" font-weight="700" fill="#E6EDF3" letter-spacing="-1.5">Vishal Patel</text>
-      <text y="118" font-size="24" fill="#B8C2CC">Production services and the ML systems behind them,</text>
-      <text y="150" font-size="24" fill="#B8C2CC">from the API layer down to the infrastructure they run on.</text>
-      <text y="200" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" fill="#6E7B8A">github.com/ishal1410  ·  Python  ·  TypeScript  ·  AWS</text>
-    </g>
-    <g transform="translate(776 54)">
-      <line x1="30" y1="0" x2="30" y2="212" stroke="#243040" stroke-width="2"/>
-      <g transform="translate(0 0)">
-        <circle cx="30" cy="30" r="9" fill="#0B0F14" stroke="#58A6FF" stroke-width="3"/>
-        <rect x="58" y="4" width="302" height="52" rx="10" fill="#111823" stroke="#243040"/>
-        <text x="76" y="26" font-size="19" font-weight="600" fill="#E6EDF3">API layer</text>
-        <text x="76" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8B949E">FastAPI · Next.js · GraphQL</text>
-      </g>
-      <g transform="translate(0 76)">
-        <circle cx="30" cy="30" r="9" fill="#0B0F14" stroke="#3FB950" stroke-width="3"/>
-        <rect x="58" y="4" width="302" height="52" rx="10" fill="#111823" stroke="#243040"/>
-        <text x="76" y="26" font-size="19" font-weight="600" fill="#E6EDF3">Models and agents</text>
-        <text x="76" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8B949E">PyTorch · TensorFlow · Strands</text>
-      </g>
-      <g transform="translate(0 152)">
-        <circle cx="30" cy="30" r="9" fill="#0B0F14" stroke="#D29922" stroke-width="3"/>
-        <rect x="58" y="4" width="302" height="52" rx="10" fill="#111823" stroke="#243040"/>
-        <text x="76" y="26" font-size="19" font-weight="600" fill="#E6EDF3">Infrastructure</text>
-        <text x="76" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8B949E">Docker · Kubernetes · Terraform</text>
-      </g>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="ht hd">
+<title id="ht">Vishal Patel, backend and machine learning engineer</title>
+<desc id="hd">Name and role beside three measured results from this account: 3,632 of 3,632 IRS returns reconciled in ninetyninety, 177 tests that spend no API call in depositcheck, and 95.33 percent in-set against 75.00 percent cross-dataset accuracy in the deepfake detection project.</desc>
+<rect width="1200" height="420" rx="20" fill="#0A0A0C"/>
+<line x1="672" y1="70" x2="672" y2="386" stroke="#26262C" stroke-width="2"/>
+<g><line x1="56" y1="92" x2="110" y2="92" stroke="#26262C" stroke-width="2"/><line x1="70" y1="85" x2="70" y2="99" stroke="#E0B252" stroke-width="2"/></g>
+<text x="130" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#9B9BA4" letter-spacing="4">BACKEND AND MACHINE LEARNING</text>
+<text x="56" y="196" font-family="Georgia,'Times New Roman',serif" font-size="76" fill="#F4F2EE">Vishal Patel</text>
+<text x="56" y="252" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="23" fill="#9B9BA4">I build production services and the models</text>
+<text x="56" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="23" fill="#9B9BA4">behind them, then measure whether they hold.</text>
+<text x="56" y="352" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#5E5F68">github.com/ishal1410</text>
+<text x="736" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#9B9BA4" letter-spacing="4">MEASURED, NOT CLAIMED</text>
+<text x="736" y="168" font-family="Georgia,'Times New Roman',serif" font-size="36" fill="#F4F2EE">3,632 / 3,632</text>
+<text x="736" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="17" fill="#9B9BA4">IRS returns reconciled</text>
+<text x="736" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#E0B252">ninetyninety</text>
+<text x="736" y="260" font-family="Georgia,'Times New Roman',serif" font-size="36" fill="#F4F2EE">177</text>
+<text x="736" y="288" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="17" fill="#9B9BA4">tests, none spending an API call</text>
+<text x="736" y="312" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#E0B252">depositcheck</text>
+<text x="736" y="352" font-family="Georgia,'Times New Roman',serif" font-size="36" fill="#F4F2EE">95.33% / 75.00%</text>
+<text x="736" y="380" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="17" fill="#9B9BA4">in-set and cross-dataset</text>
+<text x="736" y="404" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#E0B252">deepfake-detection</text>
 </svg>

@@ -12,23 +12,23 @@
 <text x="436" y="130" font-size="17" fill="#8B949E">languages</text>
 <clipPath id="barclip"><rect x="56" y="156" width="1088" height="22" rx="11"/></clipPath>
 <g clip-path="url(#barclip)">
-<rect x="56.0" y="156" width="433.0" height="22" fill="#3178C6"/>
-<rect x="489.0" y="156" width="400.4" height="22" fill="#3572A5"/>
-<rect x="889.4" y="156" width="146.4" height="22" fill="#E34C26"/>
-<rect x="1035.8" y="156" width="63.2" height="22" fill="#F1E05A"/>
-<rect x="1099.0" y="156" width="38.1" height="22" fill="#663399"/>
-<rect x="1137.1" y="156" width="3.0" height="22" fill="#89E051"/>
-<rect x="1140.1" y="156" width="3.9" height="22" fill="#6E7B8A"/>
+<rect x="56.0" y="156" width="429.9" height="22" fill="#3178C6"/>
+<rect x="485.9" y="156" width="405.4" height="22" fill="#3572A5"/>
+<rect x="891.3" y="156" width="145.3" height="22" fill="#E34C26"/>
+<rect x="1036.6" y="156" width="62.8" height="22" fill="#F1E05A"/>
+<rect x="1099.3" y="156" width="37.9" height="22" fill="#663399"/>
+<rect x="1137.2" y="156" width="3.0" height="22" fill="#89E051"/>
+<rect x="1140.2" y="156" width="3.8" height="22" fill="#6E7B8A"/>
 </g>
 <circle cx="63" cy="210" r="7" fill="#3178C6"/>
 <text x="80" y="216" font-size="19" fill="#E6EDF3">TypeScript</text>
-<text x="80" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">39.8%</text>
+<text x="80" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">39.5%</text>
 <circle cx="218" cy="210" r="7" fill="#3572A5"/>
 <text x="235" y="216" font-size="19" fill="#E6EDF3">Python</text>
-<text x="235" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">36.8%</text>
+<text x="235" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">37.3%</text>
 <circle cx="374" cy="210" r="7" fill="#E34C26"/>
 <text x="391" y="216" font-size="19" fill="#E6EDF3">HTML</text>
-<text x="391" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">13.5%</text>
+<text x="391" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">13.4%</text>
 <circle cx="529" cy="210" r="7" fill="#F1E05A"/>
 <text x="546" y="216" font-size="19" fill="#E6EDF3">JavaScript</text>
 <text x="546" y="242" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#6E7B8A">5.8%</text>

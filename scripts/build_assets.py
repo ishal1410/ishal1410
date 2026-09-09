@@ -114,10 +114,12 @@ def stats_svg(repo_count, stars, ranked):
     out.append(f'<clipPath id="barclip"><rect x="{bar_x}" y="{bar_y}" '
                f'width="{bar_w}" height="{bar_h}" rx="11"/></clipPath>')
     out.append('<g clip-path="url(#barclip)">')
+    # Whole pixels only. At one decimal the bar shifted by a fraction of a
+    # pixel whenever any repository grew, so the daily refresh committed noise.
     x = bar_x
     for lang, size in top:
         seg = bar_w * size / total
-        out.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{seg:.1f}" '
+        out.append(f'<rect x="{round(x)}" y="{bar_y}" width="{round(seg)}" '
                    f'height="{bar_h}" fill="{LANG_COLOR.get(lang, FALLBACK)}"/>')
         x += seg
     out.append("</g>")

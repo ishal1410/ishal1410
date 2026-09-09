@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" role="img" aria-labelledby="t d">
+  <title id="t">Backend and infrastructure</title>
+  <desc id="d">Section heading: Backend and infrastructure.</desc>
+  <rect width="1200" height="104" rx="18" fill="#111823"/>
+  <path d="M0 18 A18 18 0 0 1 18 0 L18 104 A18 18 0 0 1 0 86 Z" fill="#D29922"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="48" y="59" font-size="17" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#D29922">03</text>
+    <text x="94" y="62" font-size="38" font-weight="700" fill="#E6EDF3">Backend and infrastructure</text>
+  </g>
+</svg>

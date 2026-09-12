@@ -138,8 +138,6 @@ Pulls fresh job postings into a spreadsheet from the same public listings a logg
 
 <img src="./assets/stats.svg" width="100%" alt="Public code on this account: repository and star counts, and the share of each language across them, notebook bytes excluded.">
 
-<img src="./assets/snake.svg" width="100%" alt="A snake game played across this year's contribution graph: the snake eats each day that has commits in it, with a running count of cells eaten.">
-
 <p align="center">
   <a href="mailto:vp1412003@gmail.com">vp1412003@gmail.com</a> · <a href="https://www.linkedin.com/in/vishal1410">linkedin.com/in/vishal1410</a>
 </p>

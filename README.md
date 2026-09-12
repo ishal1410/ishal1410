@@ -8,8 +8,6 @@
 
 I build backend services and the machine learning systems behind them, from the API layer down to the infrastructure they run on. Most of what is here began as a question I could not answer by reading, so I built the thing and measured it.
 
-<img src="./assets/showcase.png" width="100%" alt="Four deployed applications, captured live: DepositCheck asking whether listing photos belong to an address, NinetyNinety turning a bank export into a Form 990-EZ draft, GlowRead scoring a selfie for skin concerns, and JDecode ranking the keywords a resume is missing.">
-
 <p align="center">
   <a href="https://depositcheck-liart.vercel.app">depositcheck</a> ·
   <a href="https://ishal1410.github.io/ninetyninety/">ninetyninety</a> ·
@@ -139,6 +137,8 @@ Pulls fresh job postings into a spreadsheet from the same public listings a logg
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-141417?style=flat-square&logo=githubactions&logoColor=E0B252)
 
 <img src="./assets/stats.svg" width="100%" alt="Public code on this account: repository and star counts, and the share of each language across them, notebook bytes excluded.">
+
+<img src="./assets/snake.svg" width="100%" alt="A snake game played across this year's contribution graph: the snake eats each day that has commits in it, with a running count of cells eaten.">
 
 <p align="center">
   <a href="mailto:vp1412003@gmail.com">vp1412003@gmail.com</a> · <a href="https://www.linkedin.com/in/vishal1410">linkedin.com/in/vishal1410</a>

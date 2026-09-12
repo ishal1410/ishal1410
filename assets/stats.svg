@@ -12,29 +12,29 @@
 <text x="456" y="124" dx="36" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="19" fill="#83848E">languages</text>
 <clipPath id="bc"><rect x="56" y="150" width="1088" height="14" rx="7"/></clipPath>
 <g clip-path="url(#bc)">
-<rect x="56" y="150" width="442" height="14" fill="#E0B252"/>
-<rect x="498" y="150" width="408" height="14" fill="#C9A268"/>
-<rect x="906" y="150" width="136" height="14" fill="#A99175"/>
-<rect x="1041" y="150" width="60" height="14" fill="#87807A"/>
-<rect x="1101" y="150" width="36" height="14" fill="#6A6873"/>
+<rect x="56" y="150" width="460" height="14" fill="#E0B252"/>
+<rect x="516" y="150" width="394" height="14" fill="#C9A268"/>
+<rect x="910" y="150" width="134" height="14" fill="#A99175"/>
+<rect x="1045" y="150" width="58" height="14" fill="#87807A"/>
+<rect x="1102" y="150" width="35" height="14" fill="#6A6873"/>
 <rect x="1137" y="150" width="3" height="14" fill="#514F58"/>
 <rect x="1140" y="150" width="4" height="14" fill="#3A3941"/>
 </g>
 <rect x="56" y="192" width="18" height="4" rx="2" fill="#E0B252"/>
 <text x="56" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" fill="#F4F2EE">Python</text>
-<text x="56" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">40.6%</text>
+<text x="56" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">42.3%</text>
 <rect x="211" y="192" width="18" height="4" rx="2" fill="#C9A268"/>
 <text x="211" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" fill="#F4F2EE">TypeScript</text>
-<text x="211" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">37.5%</text>
+<text x="211" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">36.2%</text>
 <rect x="367" y="192" width="18" height="4" rx="2" fill="#A99175"/>
 <text x="367" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" fill="#F4F2EE">HTML</text>
-<text x="367" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">12.5%</text>
+<text x="367" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">12.3%</text>
 <rect x="522" y="192" width="18" height="4" rx="2" fill="#87807A"/>
 <text x="522" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" fill="#F4F2EE">JavaScript</text>
-<text x="522" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">5.5%</text>
+<text x="522" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">5.3%</text>
 <rect x="678" y="192" width="18" height="4" rx="2" fill="#6A6873"/>
 <text x="678" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" fill="#F4F2EE">CSS</text>
-<text x="678" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">3.3%</text>
+<text x="678" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">3.2%</text>
 <rect x="833" y="192" width="18" height="4" rx="2" fill="#514F58"/>
 <text x="833" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="20" fill="#F4F2EE">Dockerfile</text>
 <text x="833" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20" fill="#83848E">0.3%</text>

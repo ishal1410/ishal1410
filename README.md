@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.png" width="100%" alt="banner that says Vishal Patel - backend and machine learning engineer alongside a cartoon illustration of Vishal wearing headphones">
 
-I'm a backend and machine learning engineer. I build production services and the ML systems behind them, then measure whether they hold up. Most of what's here started as a question I couldn't answer by reading, so I built the thing and checked the numbers. In 2026 my rental-scam checker [depositcheck](https://github.com/ishal1410/depositcheck) won the SerpApi "Best AI Use Case" award at the DevNetwork API+Cloud+AI Hackathon, and I have two pull requests open against [DataHub](https://github.com/datahub-project/datahub/pulls/ishal1410).
+I'm a software engineer. I build AI agents and the backend systems behind them, then measure whether they hold up. Most of what's here started as a question I couldn't answer by reading, so I built the thing and checked the numbers. In 2026 my rental-scam checker [depositcheck](https://github.com/ishal1410/depositcheck) won the SerpApi "Best AI Use Case" award at the DevNetwork API+Cloud+AI Hackathon, and I have two pull requests open against [DataHub](https://github.com/datahub-project/datahub/pulls/ishal1410).
 
 ## Things I've built 🔧
 

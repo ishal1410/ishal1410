@@ -7,5 +7,4 @@ I'm a software engineer who builds AI agents and the backend systems behind them
 ## Find me around the web 🌎
 
 - Career updates on <a href="https://www.linkedin.com/in/vishal1410">LinkedIn</a> 💼
-- Live demos at <a href="https://depositcheck-liart.vercel.app">depositcheck</a>, <a href="https://glowread.vercel.app">glowread</a> and <a href="https://jdecode.vercel.app">jdecode</a> 🚀
 - Email me at <a href="mailto:vp1412003@gmail.com">vp1412003@gmail.com</a> ✉️
